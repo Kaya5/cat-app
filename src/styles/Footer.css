@@ -1,0 +1,21 @@
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 50%;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;    
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    padding: 1.5% 0;
+    animation: footer 10s ease-in-out 1 both;
+
+}
+
+@keyframes footer {
+    from {
+        transform: translateX(-100%);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
